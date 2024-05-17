@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Tổng số tự nhiên chia hêt cho 7</title>
+</head>
+<!--Tính tổng của 30 số chia hết cho 7 đầu tiên trong các số tự nhiên.-->
+<body>
+   <script>
+       let dem=0;
+       let s=0;
+       for (let i=0;dem<30;i++) {
+           if (i % 7 === 0) {
+           s += i;
+           dem++;
+           document.write(i+'<br>');
+       }
+       }
+       document.write(s);
+   </script>
+</body>
+</html>

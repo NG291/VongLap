@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title> In dãy Fibonaci</title>
+</head>
+<body>
+<script>
+   let Fi=+prompt('Nhập độ dài dãy số fibonaci')
+   let a=0;
+   let b=1;
+   document.write('Dãy Fibonaci:')
+   for(let i=0;i<Fi;i++){
+       let temps=a+b;
+       a=b;
+       b=temps;
+       document.write(b+'<br>')
+   }
+
+</script>
+</body>
+</html>
